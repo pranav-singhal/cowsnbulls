@@ -90,9 +90,9 @@ body {
 .stroked{ text-decoration: line-through; }
 
    .inputs {
-      width: 4vw;
+      width: 8vw;
       margin: 33px;
-      height: 4vw;
+      height: 8vw;
       font-size: 2em;
     text-transform: capitalize;
     color: black;
