@@ -45,7 +45,7 @@ else
     return {bull_count: bull_count, cow_count: cow_count, donkey_count: donkey_count}
   }
   $.ajax({
-    url: 'http://singhal-pranav.herokuapp.com/game_words.txt',
+    url: 'https://singhal-pranav.herokuapp.com/game_words.txt',
     crossDomain: true,
     success: function(data){
     data=  data.replace( /\n/g, " " ).split( " " );
