@@ -18,6 +18,24 @@
 
 
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1> Cows And Bulls</h1>
+      <div class="col-md-12" id="rules">
+        <h1>Rules:</h1>
+        One player(in this case the computer), the Chooser, thinks of a four-letter word and the other player, the Guesser(you), tries to guess it.
+        <br>
+        At each turn the Guesser tries a four-letter word, and the Chooser says how close it is to the answer by giving:
+        <br>
+        The number of Bulls - letters correct in the right position. <br>
+        The number of Cows - letters correct but in the wrong position. <br>
+        The number of Donkeys - letters not in the word <br>
+        The Guesser tries to guess the answer in the fewest number of turns.
+        <br>
+        Repetitions of letters are not allowed inside the words
+      </div>
+    </div>
+  </div>
   <div class="row " id="preloader">
     <div class="loading">
     please wait while I get all the bulls and cows in line.(Looks like the donkeys are already here!)  </div>
@@ -33,8 +51,11 @@
       </ul>
   </div>
   </div>
+
   <div class="row" id="game-buttons">
+
     <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+
       <button type="button" id="start_game" style="display:none">Click to begin</button>
       <button type="button" id="end_game" style="display:none">I Give Up!</button>
       <!-- <button type="button" id="show_rules" style="display:none"> See The Rules</button> -->

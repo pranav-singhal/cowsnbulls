@@ -65,6 +65,7 @@ else
   });
 
   $('#start_game').click(function(){
+    $('#rules').css('display','none')
     $('#aplphabet').css('display','block');
     $('#end_game').css('display','block');
     $(this).css('display','none')
